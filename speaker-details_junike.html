@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      jax: ["input/TeX", "output/HTML-CSS"],
+      extensions: ["tex2jax.js"],
+      "HTML-CSS": { preferredFont: "TeX", availableFonts: ["STIX","TeX"] },
+      tex2jax: { inlineMath: [ ["$", "$"], ["\\(","\\)"] ], displayMath: [ ["$$","$$"], ["\\[", "\\]"] ], processEscapes: true, ignoreClass: "tex2jax_ignore|dno" },
+      TeX: { noUndefined: { attributes: { mathcolor: "red", mathbackground: "#FFEEEE", mathsize: "90%" } } },
+      messageStyle: "none"
+    });
+    </script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js"></script>
+
+    <meta charset="utf-8">
+    <title>NMFIW2026</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <!-- <link href="img/favicon.png" rel="icon"> -->
+    <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800"
+        rel="stylesheet">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Libraries CSS Files -->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/venobox/venobox.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+
+    <main id="main" class="main-page">
+
+        <!--==========================
+      Speaker Details Section
+    ============================-->
+        <section id="speakers-details" class="wow fadeIn">
+            <div class="container">
+
+                <div class="row">
+
+                    <!-- <div class="col-md-6"> -->
+                    <div class="details">
+                        <h2>Gero Junike</h2>
+                        <p>Ludwig-Maximilians-Universität (LMU) München</p>
+                     <div class="social">
+                            <a href='http://gero.junike.de/' target='_blank'
+                                rel='noopener noreferrer'><i class="fa fa-link" aria-hidden="true"></i></a>
+                            <a href='https://www.fm.math.lmu.de/en/members/contact-page/contact-page_1344.html' target='_blank'
+                                rel='noopener noreferrer'><i class="fa fa-university" aria-hidden="true"></i></a>
+                            <!-- <a href='https://it.linkedin.com/in/matteo-brachetta-ab7b88138' target='_blank'
+                                rel='noopener noreferrer'><i class="fa fa-linkedin" aria-hidden="true"></i></a> -->
+                        </div>
+                        <a>Title<p>Exact simulation of stochastic volatility models based on
+                                conditional Fourier-cosine method</p>
+                            <!-- <br> -->
+                            Authors<p>Gero Junike</p>
+                            <!-- <br> -->
+                            Abstract
+                        </a>
+                        <p>
+                            The traditional methodology used for the exact simulation of stochastic volatility
+                            models based on the Gil-Pelaez formula presents implementation problems that are
+                            observed by many researchers and practitioners. In particular, although conventionally
+                            considered exact, such a method presents a difficult control of the error. The
+                            bias of the Monte Carlo simulation estimator can only be computed numerically and
+                            is controlled by two parameters, typically determined by running time-consuming
+                            simulations under different tuning parameter configurations until an optimal setup
+                            is found. In this paper, we propose a new exact simulation scheme based on the
+                            Fourier-cosine method, which approximates a probability density given the characteristic
+                            function as follows: the density is truncated on a finite interval, and approximated
+                            by a classical Fourier-cosine series. The method allows full error control via
+                            an effective automatic identification of the tuning parameters given a user-supplied
+                            error tolerance. The new approach offers the following advantages: improved control
+                            of the error, simplified implementation, and reduction in computing time. The error
+                            is controlled by only one parameter instead of two. This parameter has a clear
+                            interpretation: it is the maximum tolerable bias. This facilitates the implementation,
+                            since the maximum bias becomes an input of the simulation algorithm, instead of an
+                            output, and can be set a priori, before running simulations. Our analysis shows that
+                            the proposed exact simulation scheme is computationally faster than the traditional
+                            one, and presents an improved speed-accuracy profile with respect to alternative
+                            state-of-the-art fast approximated sampling schemes.
+                        </p>
+                    </div>
+                    <!-- </div> -->
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="lib/jquery/jquery.min.js"></script>
+    <script src="lib/jquery/jquery-migrate.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/superfish/hoverIntent.js"></script>
+    <script src="lib/superfish/superfish.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/venobox/venobox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Form JavaScript File -->
+    <script src="contactform/contactform.js"></script>
+
+    <!-- Template Main Javascript File -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
