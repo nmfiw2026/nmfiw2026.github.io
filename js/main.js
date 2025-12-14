@@ -215,17 +215,17 @@ button.addEventListener('click', startDownload);
 
 
 //Add this to you script
-function run(){
-  var password = prompt("Password please");
-  //Change to your own Password
-  if(password != 'Monte_Carlo'){
-  document.body.innerHTML = '';
-  document.body.innerHTML = 'Password Failed! Reload the website and renter the password';
-  }else{
-  alert('Success');
-  }
-  }
-  run(); 
+// function run(){
+//   var password = prompt("Password please");
+//   //Change to your own Password
+//   if(password != 'Monte_Carlo'){
+//   document.body.innerHTML = '';
+//   document.body.innerHTML = 'Password Failed! Reload the website and renter the password';
+//   }else{
+//   alert('Success');
+//   }
+//   }
+//   run(); 
 
 
 let progress_b = 50
